@@ -2,109 +2,134 @@
 
 ## A. Objective
 
-> The primary objective of this report is to provide a thorough understanding of the OWASP Top 10 security risks, their relevance in web application security, and the practical insights gained from engaging with the TryHackMe room dedicated to these vulnerabilities. This report aims to enhance awareness among developers and security professionals about critical security issues and demonstrate practical applications through hands-on tasks.
+The objective of this report is to provide a comprehensive overview of the OWASP Top 10 vulnerabilities as explored in the TryHackMe room. This report will detail each vulnerability's significance, practical implications, and exploitation methods, equipping readers with the knowledge to enhance web application security.
 
 ## B. What is OWASP Top 10
 
-> The **OWASP Top 10** is a widely recognized framework published by the Open Web Application Security Project (OWASP) that identifies the ten most critical security risks facing web applications. The list is updated periodically to reflect emerging threats and changing technologies. The current OWASP Top 10 includes:
-
-1. **Injection**
-2. **Broken Authentication**
-3. **Sensitive Data Exposure**
-4. **XML External Entity (XXE)**
-5. **Broken Access Control**
-6. **Security Misconfiguration**
-7. **Cross-Site Scripting (XSS)**
-8. **Insecure Deserialization**
-9. **Components with Known Vulnerabilities**
-10. **Insufficient Logging and Monitoring**
-
-Each category outlines specific vulnerabilities, potential impacts, and recommended mitigations, serving as a vital resource for organizations aiming to secure their applications.
+The **OWASP Top 10** is a widely recognized report published by the Open Web Application Security Project (OWASP). It outlines the ten most critical security risks to web applications, serving as a foundational resource for developers and security professionals. The list is updated periodically based on data collected from various organizations and reflects current trends in web application security threats. The OWASP Top 10 aims to raise awareness about these vulnerabilities, promote secure coding practices, and guide organizations in prioritizing their security efforts.
 
 ## C. Need for OWASP Top 10
 
-The necessity of the OWASP Top 10 arises from several key factors:
+The need for the OWASP Top 10 arises from the increasing complexity of web applications and the evolving landscape of cyber threats. Key reasons for its importance include:
 
-- **Rising Threat Landscape**: As web applications become increasingly complex, the number of potential vulnerabilities grows, making it essential for organizations to stay informed about the most critical risks.
-- **Guidance for Developers**: The OWASP Top 10 provides actionable guidance that helps developers adopt secure coding practices, thereby reducing the likelihood of introducing vulnerabilities into their applications.
-- **Prioritization of Security Efforts**: By focusing on the most prevalent risks, organizations can allocate resources effectively to address vulnerabilities that pose the greatest threat.
-- **Regulatory Compliance**: Many industries are subject to regulations that require adherence to security best practices, making the OWASP Top 10 a valuable reference for compliance efforts.
+- **Prioritization of Security Efforts**: Organizations can focus on addressing the most critical vulnerabilities that could lead to significant breaches.
+- **Education and Awareness**: It provides essential training resources for developers about secure coding practices and common pitfalls.
+- **Improved Security Posture**: By implementing measures to mitigate these vulnerabilities, organizations can enhance their overall application security.
 
 ## D. Practical
 
-The TryHackMe room on OWASP Top 10 consists of various tasks that simulate real-world scenarios involving different vulnerabilities. Below is a summary of each task undertaken:
+### Severity 0: Starting
 
-### Task 1: Introduction
-An overview of the OWASP Top 10 framework and its importance in web application security.
+#### Task 1: Introduction
+- This task provides an overview of the OWASP Top 10 vulnerabilities, explaining their significance in web application security and how they can impact organizations.
 
-### Task 2: Accessing Machines
-Instructions on how to access various vulnerable machines set up for testing purposes.
+#### Task 2: Accessing Machines
+- Instructions on how to access the machines relevant to the tasks in this TryHackMe room. Participants are guided through the setup process to ensure they can effectively engage with the practical exercises.
 
-### Task 3: Injection
-- **Severity Level**: 1
-- Explored SQL injection techniques where user input is improperly sanitized, allowing attackers to manipulate database queries.
+### Severity 1: Injection
 
-### Task 4: OS Command Injection
-- **Severity Level**: 1
-- Demonstrated how attackers can execute arbitrary commands on the server by exploiting vulnerable input fields.
+#### Task 3: Injection
+- **Task Detail**: This task introduces injection attacks, including SQL injection and their potential impact on applications. Participants learn how attackers can manipulate input fields to execute arbitrary commands.
 
-### Task 5: Command Injection Practical
-- **Severity Level**: 1
-- Engaged in practical exercises that involved executing command injection attacks and observing their effects.
+#### Task 4: OS Command Injection
+- **Task Detail**: This task focuses on OS command injection vulnerabilities, explaining how they allow attackers to execute commands on a host operating system through a vulnerable application.
 
-### Task 6: Broken Authentication
-- **Severity Level**: 2
-- Investigated vulnerabilities in authentication mechanisms, emphasizing common flaws such as weak passwords and session fixation.
+#### Task 5: Command Injection Practical
+- **Task Detail**: A hands-on exercise where participants exploit a command injection vulnerability in a controlled environment, reinforcing their understanding of this attack vector.
 
-### Task 7: Broken Authentication Practical
-- **Severity Level**: 2
-- Hands-on practice identifying and exploiting broken authentication vulnerabilities.
+### Severity 2: Broken Authentication
 
-### Task 8: Sensitive Data Exposure (Introduction)
-- **Severity Level**: 3
-- Introduced concepts related to sensitive data exposure, including inadequate encryption practices.
+#### Task 6: Broken Authentication
+- **Task Detail**: This task discusses common issues related to authentication mechanisms, such as weak passwords and session management flaws that can lead to unauthorized access.
 
-### Task 9 - 10: Sensitive Data Exposure (Supporting Materials)
-- **Severity Level**: 3
-- Reviewed supporting materials that illustrate real-world scenarios of sensitive data exposure.
+#### Task 7: Broken Authentication Practical
+- **Task Detail**: A practical demonstration of exploiting broken authentication vulnerabilities, allowing participants to see firsthand how these weaknesses can be leveraged by attackers.
 
-### Task 11: Sensitive Data Exposure Challenge
-- **Severity Level**: 3
-- Engaged in a challenge focused on identifying sensitive data exposure vulnerabilities within an application.
+### Severity 3: Sensitive Data Exposure
 
-### Task 12: XML External Entity (XXE)
-- **Severity Level**: 4
-- Discussed XML parsing vulnerabilities that allow attackers to exploit external entities.
+#### Task 8: Sensitive Data Exposure (Introduction)
+- **Task Detail**: An introduction to sensitive data exposure risks, highlighting how inadequate protection measures can lead to unauthorized access to sensitive information.
 
-### Tasks 13 - 16: XML External Entity Exploitation
-Detailed exploration of XXE attacks, including:
-- Understanding DTDs (Document Type Definitions)
-- Crafting XXE payloads for exploitation
+#### Task 9: Sensitive Data Exposure (Supporting Material 1)
+- **Task Detail**: Additional resources discussing best practices for protecting sensitive data, including encryption and secure storage methods.
 
-### Task 17 - 18: Broken Access Control
-- **Severity Level**: 5
-- Investigated broken access control issues, focusing on Insecure Direct Object References (IDOR).
+#### Task 10: Sensitive Data Exposure (Supporting Material 2)
+- **Task Detail**: Further insights into securing sensitive data against exposure through various attack vectors.
 
-### Task 19: Security Misconfiguration
-- **Severity Level**: 6
-- Examined common misconfigurations that lead to security vulnerabilities across applications.
+#### Task 11: Sensitive Data Exposure (Challenge)
+- **Task Detail**: A challenge task focused on identifying sensitive data exposure vulnerabilities within a simulated environment.
 
-### Task 20: Cross-Site Scripting (XSS)
-- **Severity Level**: 7
-- Explored XSS attacks where malicious scripts are injected into web pages viewed by other users.
+### Severity 4: XML External Entity (XXE)
 
-### Tasks 21 - 26: Insecure Deserialization
-- **Severity Level**: 8
-- Covered risks associated with deserializing untrusted data, leading to potential code execution vulnerabilities.
+#### Task 12: XML External Entity
+- **Task Detail**: Overview of XXE vulnerabilities, explaining how they occur when XML parsers process external entities within XML documents.
 
-### Tasks 27 - 29: Components with Known Vulnerabilities 
-- **Severity Level**: 9
-- Discussed the implications of using outdated or vulnerable components in applications and engaged in practical exploitation scenarios.
+#### Task 13: XML External Entity - eXtensible Markup Language
+- **Task Detail**: Detailed explanation of XML and its structure, along with security concerns associated with its use in applications.
 
-### Task 30: Insufficient Logging and Monitoring 
-- **Severity Level**: 10
-- Highlighted the importance of logging and monitoring for detecting and responding to security incidents effectively.
+#### Task 14: XML External Entity - DTD
+- **Task Detail**: Understanding Document Type Definitions (DTD) in relation to XXE vulnerabilities and how they can be exploited.
+
+#### Task 15: XML External Entity - XXE Payload
+- **Task Detail**: Crafting payloads specifically designed for exploiting XXE vulnerabilities in XML documents.
+
+#### Task 16: XML External Entity - Exploiting
+- **Task Detail**: Practical demonstration of exploiting XXE vulnerabilities, showcasing real-world implications of these security flaws.
+
+### Severity 5: Broken Access Control
+
+#### Task 17: Broken Access Control
+- **Task Detail**: Discussion on issues related to access control mechanisms that can lead to unauthorized actions by users within an application.
+
+#### Task 18: Broken Access Control (IDOR Challenge)
+- **Task Detail**: Challenge focused on Insecure Direct Object References (IDOR), where participants identify and exploit weaknesses in access control implementations.
+
+### Severity 6: Security Misconfiguration
+
+#### Task 19: Security Misconfiguration
+- **Task Detail**: Exploring common misconfigurations that lead to vulnerabilities, such as default settings or overly permissive permissions that expose applications to risk.
+
+### Severity 7: Cross-site Scripting (XSS)
+
+#### Task 20: Cross-site Scripting
+- **Task Detail**: Understanding XSS attacks, including stored and reflected XSS, along with prevention techniques to mitigate these risks.
+
+### Severity 8: Insecure Deserialization
+
+#### Task 21: Insecure Deserialization 
+- **Task Detail**: Overview of deserialization vulnerabilities and risks associated with improperly handling serialized data.
+
+#### Task 22: Insecure Deserialization - Objects
+- **Task Detail**: Discussion on object serialization and its security implications when not handled correctly.
+
+#### Task 23: Insecure Deserialization - Deserialization 
+- **Task Detail**: Detailed examination of deserialization processes, highlighting potential attack vectors that could be exploited by malicious actors.
+
+#### Task 24: Insecure Deserialization - Cookies 
+- **Task Detail**: Understanding cookie serialization issues and how insecure deserialization can lead to session hijacking or other attacks.
+
+#### Task 25: Insecure Deserialization - Cookies Practical 
+- **Task Detail**: Practical task involving cookie deserialization attacks, allowing participants to apply their knowledge in a hands-on environment.
+
+#### Task 26: Insecure Deserialization - Code Execution 
+- **Task Detail**: Demonstrating how insecure deserialization can lead to remote code execution vulnerabilities within an application.
+
+### Severity 9: Components With Known Vulnerabilities
+
+#### Task 27: Components With Known Vulnerabilities - Intro 
+- **Task Detail**: Introduction to risks associated with using outdated components or libraries that contain known vulnerabilities.
+
+#### Task 28: Components With Known Vulnerabilities - Exploit 
+- **Task Detail**: Practical demonstration of exploiting known vulnerabilities in software components, emphasizing the importance of keeping libraries up-to-date.
+
+#### Task 29: Components With Known Vulnerabilities - Lab 
+- **Task Detail**: Lab exercise focusing on identifying vulnerable components within a simulated environment and understanding mitigation strategies.
+
+### Severity 10: Insufficient Logging and Monitoring
+
+#### Task 30: Insufficient Logging and Monitoring 
+- **Task Detail**: Discussing the importance of logging and monitoring in application security. This task highlights how insufficient logging can hinder incident response efforts and allow attacks to go unnoticed.
 
 ## E. Conclusion
 
-In conclusion, the OWASP Top 10 serves as an essential framework for understanding and addressing web application security risks. The hands-on experience gained from the TryHackMe room reinforces theoretical knowledge by providing practical exposure to real-world vulnerabilities across various severity levels. By incorporating OWASP's guidelines into development practices, organizations can significantly enhance their security posture and reduce the likelihood of successful attacks on their applications. Implementing these principles not only protects sensitive data but also fosters a culture of security awareness within development teams. Continuous education and training based on frameworks like OWASP are crucial for maintaining robust application security in an ever-evolving threat landscape.
+The OWASP Top Ten serves as a crucial resource for understanding web application security risks. By engaging with practical tasks in TryHackMe, participants gain hands-on experience with these vulnerabilities, enhancing their ability to secure applications effectively. Continuous education and awareness are vital for developers and organizations alike to mitigate these risks, ensuring a robust defense against potential attacks.
