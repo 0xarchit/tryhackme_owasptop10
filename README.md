@@ -18,7 +18,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 
 ## D. Practical
 
-### Severity 0: Starting
+### Chapter 0: Starting
 
 > Task 1: Introduction
 - This task provides an overview of the TryHackMe OWASP Top 10 room.
@@ -32,7 +32,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
   ![image](https://github.com/user-attachments/assets/23d84f66-68d4-4524-9563-d13579f7a393)
 
 
-### Severity 1: Injection
+### Chapter 1: Injection
 
 > Task 3: Injection
 - **Task Detail**: This task introduces injection attacks, including SQL injection and their potential impact on applications. Participants learn how attackers can manipulate input fields to execute arbitrary commands.
@@ -43,7 +43,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 > Task 5: Command Injection Practical
 - **Task Detail**: A hands-on exercise where participants exploit a command injection vulnerability in a controlled environment, reinforcing their understanding of this attack vector.
 
-### Severity 2: Broken Authentication
+### Chapter 2: Broken Authentication
 
 > Task 6: Broken Authentication
 - **Task Detail**: This task discusses common issues related to authentication mechanisms, such as weak passwords and session management flaws that can lead to unauthorized access.
@@ -51,7 +51,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 > Task 7: Broken Authentication Practical
 - **Task Detail**: A practical demonstration of exploiting broken authentication vulnerabilities, allowing participants to see firsthand how these weaknesses can be leveraged by attackers.
 
-### Severity 3: Sensitive Data Exposure
+### Chapter 3: Sensitive Data Exposure
 
 > Task 8: Sensitive Data Exposure (Introduction)
 - **Task Detail**: An introduction to sensitive data exposure risks, highlighting how inadequate protection measures can lead to unauthorized access to sensitive information.
@@ -65,7 +65,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 > Task 11: Sensitive Data Exposure (Challenge)
 - **Task Detail**: A challenge task focused on identifying sensitive data exposure vulnerabilities within a simulated environment.
 
-### Severity 4: XML External Entity (XXE)
+### Chapter 4: XML External Entity (XXE)
 
 > Task 12: XML External Entity
 - **Task Detail**: Overview of XXE vulnerabilities, explaining how they occur when XML parsers process external entities within XML documents.
@@ -82,7 +82,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 > Task 16: XML External Entity - Exploiting
 - **Task Detail**: Practical demonstration of exploiting XXE vulnerabilities, showcasing real-world implications of these security flaws.
 
-### Severity 5: Broken Access Control
+### Chapter 5: Broken Access Control
 
 > Task 17: Broken Access Control
 - **Task Detail**: Discussion on issues related to access control mechanisms that can lead to unauthorized actions by users within an application.
@@ -90,17 +90,17 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 > Task 18: Broken Access Control (IDOR Challenge)
 - **Task Detail**: Challenge focused on Insecure Direct Object References (IDOR), where participants identify and exploit weaknesses in access control implementations.
 
-### Severity 6: Security Misconfiguration
+### Chapter 6: Security Misconfiguration
 
 > Task 19: Security Misconfiguration
 - **Task Detail**: Exploring common misconfigurations that lead to vulnerabilities, such as default settings or overly permissive permissions that expose applications to risk.
 
-### Severity 7: Cross-site Scripting (XSS)
+### Chapter 7: Cross-site Scripting (XSS)
 
 > Task 20: Cross-site Scripting
 - **Task Detail**: Understanding XSS attacks, including stored and reflected XSS, along with prevention techniques to mitigate these risks.
 
-### Severity 8: Insecure Deserialization
+### Chapter 8: Insecure Deserialization
 
 > Task 21: Insecure Deserialization 
 - **Task Detail**: Overview of deserialization vulnerabilities and risks associated with improperly handling serialized data.
@@ -120,7 +120,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 > Task 26: Insecure Deserialization - Code Execution 
 - **Task Detail**: Demonstrating how insecure deserialization can lead to remote code execution vulnerabilities within an application.
 
-### Severity 9: Components With Known Vulnerabilities
+### Chapter 9: Components With Known Vulnerabilities
 
 > Task 27: Components With Known Vulnerabilities - Intro 
 - **Task Detail**: Introduction to risks associated with using outdated components or libraries that contain known vulnerabilities.
@@ -131,7 +131,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 > Task 29: Components With Known Vulnerabilities - Lab 
 - **Task Detail**: Lab exercise focusing on identifying vulnerable components within a simulated environment and understanding mitigation strategies.
 
-### Severity 10: Insufficient Logging and Monitoring
+### Chapter 10: Insufficient Logging and Monitoring
 
 > Task 30: Insufficient Logging and Monitoring 
 - **Task Detail**: Discussing the importance of logging and monitoring in application security. This task highlights how insufficient logging can hinder incident response efforts and allow attacks to go unnoticed.
