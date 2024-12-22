@@ -2,7 +2,7 @@
 
 ## A. Objective
 
-The objective of this report is to provide a comprehensive overview of the OWASP Top 10 vulnerabilities as explored in the TryHackMe room. This report will detail each vulnerability's significance, practical implications, and exploitation methods, equipping readers with the knowledge to enhance web application security.
+The objective of this report is to provide a comprehensive overview of the OWASP Top 10 vulnerabilities as I explored in the TryHackMe room. This report contain all task and proof that I have completed the room of Owasp Top 10.
 
 ## B. What is OWASP Top 10
 
@@ -21,13 +21,13 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 ### Chapter 0: Starting
 
 > Task 1: Introduction
-- This task provides an overview of the TryHackMe OWASP Top 10 room.
+- **Task Detail**: This task provides an overview of the TryHackMe OWASP Top 10 room.
 
   ![image](https://github.com/user-attachments/assets/19d9b169-7e31-4720-a4e3-09ab86be4ffa)
 
 
 > Task 2: Accessing Machines
-- Instructions on how to access the machines relevant to the tasks in this TryHackMe room and also the process of setting up OpenVPN to access attack machine through our local machine.
+- **Task Detail**: Instructions on how to access the machines relevant to the tasks in this TryHackMe room and also the process of setting up OpenVPN to access attack machine through our local machine.
 
   ![image](https://github.com/user-attachments/assets/23d84f66-68d4-4524-9563-d13579f7a393)
 
@@ -35,13 +35,13 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 ### Chapter 1: Injection
 
 > Task 3: Injection
-- **Task Detail**: This task introduces injection attacks, including SQL injection and their potential impact on applications. Participants learn how attackers can manipulate input fields to execute arbitrary commands.
+- **Task Detail**: This task introduces injection attacks, including SQL injection and their potential impact on applications. Here I learn how attackers can manipulate input fields to execute arbitrary commands.
 
 > Task 4: OS Command Injection
 - **Task Detail**: This task focuses on OS command injection vulnerabilities, explaining how they allow attackers to execute commands on a host operating system through a vulnerable application.
 
 > Task 5: Command Injection Practical
-- **Task Detail**: A hands-on exercise where participants exploit a command injection vulnerability in a controlled environment, reinforcing their understanding of this attack vector.
+- **Task Detail**: A hands-on exercise where I exploit a command injection vulnerability in tryhackme given environment.
 
   ![image](https://github.com/user-attachments/assets/d4913bc3-ece2-4c75-8827-4df9161e48d9)
 
@@ -52,7 +52,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 - **Task Detail**: This task discusses common issues related to authentication mechanisms, such as weak passwords and session management flaws that can lead to unauthorized access.
 
 > Task 7: Broken Authentication Practical
-- **Task Detail**: A practical demonstration of exploiting broken authentication vulnerabilities, allowing participants to see firsthand how these weaknesses can be leveraged by attackers.
+- **Task Detail**: A practical demonstration of exploiting broken authentication vulnerabilities, allowing to see how these weaknesses can be leveraged by attackers.
 
   ![image](https://github.com/user-attachments/assets/a2c6180d-e4e3-4f7a-bd03-71ab534f8de3)
 
@@ -63,10 +63,10 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 - **Task Detail**: An introduction to sensitive data exposure risks, highlighting how inadequate protection measures can lead to unauthorized access to sensitive information.
 
 > Task 9: Sensitive Data Exposure (Supporting Material 1)
-- **Task Detail**: Additional resources discussing best practices for protecting sensitive data, including encryption and secure storage methods.
+- **Task Detail**: Additional resources discussing best practices for protecting sensitive data, including encryption and secure storage methods like nosql and also learnt how to extract hashes.
 
 > Task 10: Sensitive Data Exposure (Supporting Material 2)
-- **Task Detail**: Further insights into securing sensitive data against exposure through various attack vectors.
+- **Task Detail**: Further insights into securing sensitive data against exposure through various attack vectors and learnt to crack hashes to get passwords.
 
 > Task 11: Sensitive Data Exposure (Challenge)
 - **Task Detail**: A challenge task focused on identifying sensitive data exposure vulnerabilities within a simulated environment.
@@ -95,7 +95,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 - **Task Detail**: Crafting payloads specifically designed for exploiting XXE vulnerabilities in XML documents.
 
 > Task 16: XML External Entity - Exploiting
-- **Task Detail**: Practical demonstration of exploiting XXE vulnerabilities, showcasing real-world implications of these security flaws.
+- **Task Detail**: Practical demonstration of exploiting XXE vulnerabilities, practicing on real-world implications of these security flaws via tryhackme machine.
 
   ![image](https://github.com/user-attachments/assets/93237305-5417-4126-9821-8a06ac94acc0)
 
@@ -106,7 +106,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 - **Task Detail**: Discussion on issues related to access control mechanisms that can lead to unauthorized actions by users within an application.
 
 > Task 18: Broken Access Control (IDOR Challenge)
-- **Task Detail**: Challenge focused on Insecure Direct Object References (IDOR), where participants identify and exploit weaknesses in access control implementations.
+- **Task Detail**: Challenge focused on Insecure Direct Object References (IDOR), where I identify and exploit weaknesses on a tryhackme sandbox.
 
   ![image](https://github.com/user-attachments/assets/cb1ec7e8-96c0-47d8-9198-8d4cb62b0014)
 
@@ -122,7 +122,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 ### Chapter 7: Cross-site Scripting (XSS)
 
 > Task 20: Cross-site Scripting
-- **Task Detail**: Understanding XSS attacks, including stored and reflected XSS, along with prevention techniques to mitigate these risks.
+- **Task Detail**: Understanding XSS attacks, including stored, reflected and dom based XSS, along with a practical machine to try these attacks.
 
   ![image](https://github.com/user-attachments/assets/aacd0b10-d2db-4397-80b9-b4b008174121)
 
@@ -136,7 +136,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 
 
 > Task 22: Insecure Deserialization - Objects
-- **Task Detail**: Discussion on object serialization and its security implications when not handled correctly.
+- **Task Detail**: Discussion on object serialization (concept of oops) and its learning about state and behaviour.
 
   ![image](https://github.com/user-attachments/assets/ee2c26c2-cdb9-4441-a242-ca6d8ff3f3af)
 
@@ -154,13 +154,13 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 
 
 > Task 25: Insecure Deserialization - Cookies Practical 
-- **Task Detail**: Practical task involving cookie deserialization attacks, allowing participants to apply their knowledge in a hands-on environment.
+- **Task Detail**: Practical task involving cookie deserialization attacks, allowing to apply understandings in a tryhackme environment by changing values of cookies.
 
   ![image](https://github.com/user-attachments/assets/a3f1a37f-8208-40a6-82e1-724e10918df1)
 
 
 > Task 26: Insecure Deserialization - Code Execution 
-- **Task Detail**: Demonstrating how insecure deserialization can lead to remote code execution vulnerabilities within an application.
+- **Task Detail**: Another practical task on how insecure deserialization can lead to remote code execution vulnerabilities within an application.
 
   ![image](https://github.com/user-attachments/assets/ef9f117e-d47a-4146-8fd1-616c4c50f17e)
 
@@ -174,7 +174,7 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 - **Task Detail**: Practical demonstration of exploiting known vulnerabilities in software components, emphasizing the importance of keeping libraries up-to-date.
 
 > Task 29: Components With Known Vulnerabilities - Lab 
-- **Task Detail**: Lab exercise focusing on identifying vulnerable components within a simulated environment and understanding mitigation strategies.
+- **Task Detail**: Lab exercise focusing on identifying vulnerable components within controlled environment.
 
   ![image](https://github.com/user-attachments/assets/56509d10-143b-4921-bee8-71a7ef77b100)
 
@@ -189,6 +189,8 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 
 ## E. Conclusion
 
-The OWASP Top Ten serves as a crucial resource for understanding web application security risks. By engaging with practical tasks in TryHackMe, participants gain hands-on experience with these vulnerabilities, enhancing their ability to secure applications effectively. Continuous education and awareness are vital for developers and organizations alike to mitigate these risks, ensuring a robust defense against potential attacks.
+The OWASP Top Ten serves as a crucial resource for understanding web application security risks. By engaging with practical tasks in TryHackMe, I gain a hands-on experience with these vulnerabilities, enhancing their ability to secure applications effectively. Continuous education and awareness are vital for developers and organizations alike to mitigate these risks, ensuring a robust defense against potential attacks.
+As a beginner and doing it first time I took help from some youtube channel and this [article](https://musyokaian.medium.com/owasp-top-10-tryhackme-b7d02f29254b).
 
+### My room completion badge:
   ![image](https://github.com/user-attachments/assets/452b465b-2b3d-4fd2-848f-8fc8f1e049db)
