@@ -23,13 +23,15 @@ The need for the OWASP Top 10 arises from the increasing complexity of web appli
 > Task 1: Introduction
 - **Task Detail**: This task provides an overview of the TryHackMe OWASP Top 10 room.
 
-  ![image](https://github.com/user-attachments/assets/19d9b169-7e31-4720-a4e3-09ab86be4ffa)
+  ![image](https://github.com/user-attachments/assets/082dc488-5a34-4719-84ad-6319d2e24cd6)
+
 
 
 > Task 2: Accessing Machines
 - **Task Detail**: Instructions on how to access the machines relevant to the tasks in this TryHackMe room and also the process of setting up OpenVPN to access attack machine through our local machine.
 
-  ![image](https://github.com/user-attachments/assets/23d84f66-68d4-4524-9563-d13579f7a393)
+  ![image](https://github.com/user-attachments/assets/30745050-dc75-484d-95f2-959826d7d06a)
+
 
 
 ### Chapter 1: Injection
